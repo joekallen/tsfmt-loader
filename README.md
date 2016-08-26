@@ -39,7 +39,7 @@ module: {
  ```
 
 ## Note
-The options tslint, editorconfig, tsfmt and tsconfig are all enabled by default and must be explicitly turned off.
+If you are using other preloaders it is suggested you list this one last.  Webpack executes preloaders in reverse order and this will allow the formatter to execute before other tasks like linters.
 
 ## Read Settings From Files.  Reference [typescript-formatter npm listing](https://www.npmjs.com/package/typescript-formatter) for more information.
 
