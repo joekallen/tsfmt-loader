@@ -1,0 +1,46 @@
+{
+  "name": "tsfmt-loader",
+  "version": "0.0.1",
+  "description": "A typescript formatter that can be plugged into a webpack build.",
+  "main": "index.js",
+  "dependencies": {
+    "loader-utils": "^0.2.15"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.10.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.2.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-jasmine-given": "^0.1.1",
+    "karma-nested-reporter": "^0.1.4",
+    "typescript": "^1.8.10",
+    "typescript-formatter": "^2.3.0"
+  },
+  "peerDependencies": {
+    "typescript-formatter": "^2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joekallen/tsfmt-loader.git"
+  },
+  "author": "Joe Allen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joekallen/tsfmt-loader/issues"
+  },
+  "homepage": "https://github.com/joekallen/tsfmt-loader#readme",
+  "keywords": [
+    "webpack",
+    "typescriot",
+    "ts",
+    "typescript-formatter",
+    "tsfmt"
+  ]
+}
